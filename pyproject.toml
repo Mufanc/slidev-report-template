@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fft"
+version = "0.1.0"
+description = ""
+authors = ["Mufanc <mufanc.xyz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pdf2pptx = "^1.0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
